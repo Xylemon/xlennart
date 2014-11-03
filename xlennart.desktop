@@ -1,0 +1,10 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=XLennart
+Comment=Save the Unix world.
+Exec=xlennart
+Icon=xlennart
+Terminal=false
+Categories=Game;ActionGame;

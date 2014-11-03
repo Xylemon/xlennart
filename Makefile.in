@@ -1,0 +1,105 @@
+CC = @CC@
+CFLAGS = @CFLAGS@
+CPPFLAGS = @CPPFLAGS@
+LDFLAGS = @LDFLAGS@
+LIBS = @LIBS@ @X_LIBS@ @WIDGET_LIBS@ @X_PRE_LIBS@
+INSTALL=@INSTALL@
+INSTALL_DATA=@INSTALL_DATA@
+MKINSTALLDIRS = $(SHELL) $(top_srcdir)/mkinstalldirs
+
+X_CFLAGS=@X_CFLAGS@
+GTK_CFLAGS=@GTK_CFLAGS@
+
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+bindir=@bindir@
+mandir=@mandir@
+datadir=@datadir@
+localstatedir=@localstatedir@
+top_srcdir = @top_srcdir@
+srcdir = @srcdir@
+VPATH = @srcdir@
+
+ALL_CFLAGS =	$(CFLAGS) $(CPPFLAGS) -I$(srcdir)
+ALL_LDFLAGS =	$(CFLAGS) $(LDFLAGS)
+IMAGE_DEFINES=-DIMAGES=\"${datadir}/xlennart\"
+SCORE_DEFINES=-DSCOREFILE=\"${localstatedir}/xlennart/scores\"
+
+PROG =	xlennart
+
+OBJS =	Bill.o Bucket.o Cable.o Computer.o Game.o Horde.o Network.o \
+	OS.o Scorelist.o Spark.o UI.o util.o @WIDGET_OBJS@
+
+XPMS =	pixmaps/about.xpm pixmaps/apple.xpm pixmaps/billA_0.xpm \
+	pixmaps/billA_1.xpm pixmaps/billA_10.xpm pixmaps/billA_11.xpm \
+	pixmaps/billA_12.xpm pixmaps/billA_2.xpm pixmaps/billA_3.xpm \
+	pixmaps/billA_4.xpm pixmaps/billA_5.xpm pixmaps/billA_6.xpm \
+	pixmaps/billA_7.xpm pixmaps/billA_8.xpm pixmaps/billA_9.xpm \
+	pixmaps/billD_0.xpm pixmaps/billD_1.xpm pixmaps/billD_2.xpm \
+	pixmaps/billD_3.xpm pixmaps/billD_4.xpm pixmaps/billL_0.xpm \
+	pixmaps/billL_1.xpm pixmaps/billL_2.xpm pixmaps/billR_0.xpm \
+	pixmaps/billR_1.xpm pixmaps/billR_2.xpm pixmaps/bsd.xpm \
+	pixmaps/bsdcpu.xpm pixmaps/bucket.xpm pixmaps/arch.xpm \
+	pixmaps/icon.xpm pixmaps/centos.xpm pixmaps/logo.xpm \
+	pixmaps/maccpu.xpm pixmaps/debian.xpm pixmaps/nextcpu.xpm \
+	pixmaps/gentoo.xpm pixmaps/os2cpu.xpm \
+	pixmaps/palm.xpm pixmaps/palmcpu.xpm pixmaps/mandriva.xpm \
+	pixmaps/spark_0.xpm pixmaps/slackware.xpm pixmaps/suse.xpm \
+	pixmaps/spark_1.xpm pixmaps/ubuntu.xpm pixmaps/suncpu.xpm \
+	pixmaps/toaster.xpm pixmaps/initfail.xpm
+
+XBMS =	bitmaps/apple.xbm bitmaps/bsd.xbm bitmaps/bucket.xbm \
+	bitmaps/hand_down.xbm bitmaps/hand_down_mask.xbm bitmaps/hand_up.xbm \
+	bitmaps/hand_up_mask.xbm bitmaps/hurd.xbm bitmaps/linux.xbm \
+	bitmaps/next.xbm bitmaps/os2.xbm bitmaps/palm.xbm bitmaps/redhat.xbm \
+	bitmaps/sgi.xbm bitmaps/sun.xbm
+
+MANDIR = man6
+MAN = xlennart.6
+
+all: ${PROG}
+
+xlennart: ${OBJS}
+	$(CC) $(ALL_LDFLAGS) -o $@ ${OBJS} ${LIBS}
+
+.c.o:
+	$(CC) $(ALL_CFLAGS) -c $< -o $@
+
+Scorelist.o: Scorelist.c
+	$(CC) $(ALL_CFLAGS) $(SCORE_DEFINES) -c $< -o $@
+
+x11-motif.o: x11-motif.c
+	$(CC) $(ALL_CFLAGS) $(X_CFLAGS) -c $< -o $@
+
+x11-athena.o: x11-athena.c
+	$(CC) $(ALL_CFLAGS) $(X_CFLAGS) -c $< -o $@
+
+x11.o: x11.c
+	$(CC) $(ALL_CFLAGS) $(X_CFLAGS) $(IMAGE_DEFINES) -c $< -o $@
+
+gtk.o: gtk.c
+	$(CC) $(ALL_CFLAGS) $(GTK_CFLAGS) $(IMAGE_DEFINES) -c $< -o $@
+
+install:
+	$(MKINSTALLDIRS) ${DESTDIR}${bindir}
+	$(INSTALL) ${PROG} ${DESTDIR}${bindir}/${PROG}
+	$(MKINSTALLDIRS) ${DESTDIR}${mandir}/${MANDIR}
+	$(INSTALL_DATA) ${srcdir}/${MAN} ${DESTDIR}${mandir}/${MANDIR}
+	$(MKINSTALLDIRS) ${DESTDIR}${localstatedir}/xlennart
+	$(INSTALL_DATA) -m 0666 ${srcdir}/scores ${DESTDIR}${localstatedir}/xlennart
+	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart
+	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart/pixmaps
+	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart/bitmaps
+	for i in ${XPMS}; do \
+		${INSTALL_DATA} ${srcdir}/$$i ${DESTDIR}${datadir}/xlennart/pixmaps ; \
+	done
+	for i in ${XBMS}; do \
+		${INSTALL_DATA} ${srcdir}/$$i ${DESTDIR}${datadir}/xlennart/bitmaps ; \
+	done
+
+distclean::
+	rm -f config.cache config.h config.log config.status Makefile
+
+distclean clean::
+	rm -f ${PROG} *.o
+	rm -f *core core*

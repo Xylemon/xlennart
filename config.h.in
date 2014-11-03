@@ -1,0 +1,22 @@
+/* config.h.in.  Generated automatically from configure.in by autoheader.  */
+
+/* Define to empty if the keyword does not work.  */
+#undef const
+
+/* Define if you have the ANSI C header files.  */
+#undef STDC_HEADERS
+
+/* Define if the X Window System is missing or not being used.  */
+#undef X_DISPLAY_MISSING
+
+/* Use athena widgets */
+#undef USE_ATHENA
+
+/* Use motif widgets */
+#undef USE_MOTIF
+
+/* Use gtk widgets */
+#undef USE_GTK
+
+/* Define if you have the <unistd.h> header file.  */
+#undef HAVE_UNISTD_H

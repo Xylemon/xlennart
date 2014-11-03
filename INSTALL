@@ -1,0 +1,14 @@
+To install:
+	./configure
+	make
+	make install
+
+Notes:
+ - libXpm is required when using Motif or Athena widgets.  If you don't
+   have it, get it from any X ftp site.
+
+ - By default, xbill will be detect the presence of GTK, Motif, and Athena
+   widgets, and build with all that are present.  It will also use Xaw3d
+   as a replacement for the standard Athena sidgets if present.
+
+ - The default UI is GTK, if compiled in, followed by Motif and Athena.

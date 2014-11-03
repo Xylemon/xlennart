@@ -1,0 +1,30 @@
+/* XPM */
+static char * spark_1_xpm[] = {
+/* width height ncolors chars_per_pixel */
+"20 20 4 1",
+/* colors */
+" 	c None",
+".	c #DB6503",
+"X	c #DC5D02",
+"o	c #FBFE0F",
+/* pixels */
+"                .   ",
+"               X    ",
+"  .     .      .    ",
+"   X    ..    .    .",
+"        .X       .. ",
+"        XoX     XoX ",
+"        .ooX  X.oX  ",
+"        XoooXXooX   ",
+"        .ooooooX    ",
+" ....XX.XoooooX     ",
+"   X.XooooooooX     ",
+"      .XXoooo.      ",
+"         XoooX XX   ",
+"    .X    Xoo.   .. ",
+"   .       Xo.      ",
+"           .oX      ",
+"        X   XoX     ",
+"        .    X.     ",
+"       .     ..     ",
+"              .     "};
