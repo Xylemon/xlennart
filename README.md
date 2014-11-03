@@ -7,7 +7,9 @@ XLennart 1.0 - An XBill Modification
 XLennart is very simple to compile, as all you need to do is:
 
 ./configure
+
 make
+
 sudo make install
 
 ##About
@@ -50,9 +52,12 @@ If you encounter a problem with Motif, V.R. from darknedgy.net did this to
 compile XLennart:
 
 ./configure --disable-motif
+
 Then I edited the Makefile and added -lXpm to LDFLAGS.
+
 Then I had to edit UI.c and remove the #ifdef USE_MOTIF from the guis[] array, 
 otherwise I got a missing symbol error.
+
 make 
 
 ##Options
