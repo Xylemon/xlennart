@@ -1,7 +1,7 @@
 xlennart
 ========
 
-XLennart 1.0 - A XBill Modification
+XLennart 1.0 - An XBill Modification
 
 Welcome to XLennart...
 

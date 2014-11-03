@@ -52,5 +52,5 @@ rm -rf $RPM_BUILD_ROOT
 %config /etc/X11/applnk/Games/xlennart.desktop
 
 %changelog
-* Sun Oct 29 2014 Gethyn ThomasQuail <xylem2020@gmail.com>
+* Sun Nov 2 2014 Gethyn ThomasQuail <xylem2020@gmail.com>
 - First release!

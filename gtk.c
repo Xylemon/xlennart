@@ -350,7 +350,7 @@ gtk_ui_initialize(int *argc, char **argv) {
 	toplevel = gtk_window_new(GTK_WINDOW_TOPLEVEL);
 
 	timer = 0;
-	gtk_window_set_title(GTK_WINDOW(toplevel), "XLennart - A XBill Modification");
+	gtk_window_set_title(GTK_WINDOW(toplevel), "XLennart - An XBill Modification");
 
 	gtk_signal_connect(GTK_OBJECT(toplevel), "delete_event",
 			   GTK_SIGNAL_FUNC(quit_game), NULL);
