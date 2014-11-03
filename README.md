@@ -1,7 +1,16 @@
-xlennart
-========
+##XLennart
 
 XLennart 1.0 - An XBill Modification
+
+##Compiling
+
+XLennart is very simple to compile, as all you need to do is:
+
+./configure
+make
+sudo make install
+
+##About
 
 Welcome to XLennart...
 
@@ -32,7 +41,22 @@ the bucket of water from the upper left corner onto it.
 		Level
 		Score
 
-Options:
+## Known Issues
+
+Though XLennart should work fine on most Linux and BSD distros, there are 
+still some problems since xBill is so old. 
+
+If you encounter a problem with Motif, V.R. from darknedgy.net did this to 
+compile XLennart:
+
+./configure --disable-motif
+Then I edited the Makefile and added -lXpm to LDFLAGS.
+Then I had to edit UI.c and remove the #ifdef USE_MOTIF from the guis[] array, 
+otherwise I got a missing symbol error.
+make 
+
+##Options
+
 	-l <n>	Start at level n.
 
 	--gui <gui>
@@ -53,7 +77,12 @@ Options:
 	options are supported.
 
 
-Authors:
+##Screenshots
+
+![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen1.png)
+![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen2.png)
+
+##Authors
 
 Main Programmer:
 
