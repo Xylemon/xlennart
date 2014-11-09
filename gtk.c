@@ -171,6 +171,7 @@ timer_tick(gpointer arg) {
 #include "bitmaps/debian.xbm"
 #include "bitmaps/gentoo.xbm"
 #include "bitmaps/mandriva.xbm"
+#include "bitmaps/openbsd.xbm"
 #include "bitmaps/slackware.xbm"
 #include "bitmaps/suse.xbm"
 #include "bitmaps/ubuntu.xbm"
@@ -195,8 +196,8 @@ typedef struct cursormap {
 static cursormap cursors[] = {
 	CURSOR_ADD(arch), CURSOR_ADD( bsd), CURSOR_ADD(centos),
 	CURSOR_ADD(debian), CURSOR_ADD(gentoo), CURSOR_ADD(mandriva),
-	CURSOR_ADD(slackware), CURSOR_ADD(suse), CURSOR_ADD(ubuntu),
-	CURSOR_ADD(bucket),
+	CURSOR_ADD(openbsd), CURSOR_ADD(slackware), CURSOR_ADD(suse), 
+	CURSOR_ADD(ubuntu), CURSOR_ADD(bucket),
 	CURSOR_ADD_MASKED(hand_up), CURSOR_ADD_MASKED(hand_down),
 	{NULL, 0, 0, NULL, NULL},
 };

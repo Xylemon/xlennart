@@ -42,7 +42,7 @@ XPMS =	pixmaps/about.xpm pixmaps/billA_0.xpm \
 	pixmaps/bsdcpu.xpm pixmaps/bucket.xpm pixmaps/arch.xpm \
 	pixmaps/icon.xpm pixmaps/centos.xpm pixmaps/logo.xpm \
 	pixmaps/maccpu.xpm pixmaps/debian.xpm pixmaps/nextcpu.xpm \
-	pixmaps/gentoo.xpm pixmaps/os2cpu.xpm \
+	pixmaps/gentoo.xpm pixmaps/openbsd.xpm pixmaps/os2cpu.xpm \
 	pixmaps/palm.xpm pixmaps/palmcpu.xpm pixmaps/mandriva.xpm \
 	pixmaps/spark_0.xpm pixmaps/slackware.xpm pixmaps/suse.xpm \
 	pixmaps/spark_1.xpm pixmaps/ubuntu.xpm pixmaps/suncpu.xpm \
@@ -50,8 +50,8 @@ XPMS =	pixmaps/about.xpm pixmaps/billA_0.xpm \
 
 XBMS =	bitmaps/arch.xbm bitmaps/bsd.xbm bitmaps/bucket.xbm bitmaps/centos.xbm \
 	bitmaps/debian.xbm bitmaps/gentoo.xbm bitmaps/hand_down.xbm \
-	bitmaps/hand_down_mask.xbm bitmaps/hand_up.xbm \
-	bitmaps/hand_up_mask.xbm bitmaps/initfail.xbm bitmaps/mandriva.xbm \
+	bitmaps/hand_down_mask.xbm bitmaps/hand_up.xbm bitmaps/hand_up_mask.xbm \
+	bitmaps/initfail.xbm bitmaps/mandriva.xbm bitmaps/openbsd.xbm \
 	bitmaps/slackware.xbm bitmaps/suse.xbm bitmaps/ubuntu.xbm
 	
 

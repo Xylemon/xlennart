@@ -7,8 +7,8 @@
 #define MIN_PC 6		/* OS >= MIN_PC means the OS is a PC OS */
 
 static const char *osname[] = { "initfail", "arch", "bsd", "centos", "debian",
-			         "gentoo", "mandriva", "slackware", "suse",
-				 "ubuntu"};
+			         "gentoo", "mandriva", "openbsd", "slackware",
+				 "suse", "ubuntu"};
 #define NUM_OS (sizeof(osname) / sizeof(osname[0]))
 
 static Picture *os[NUM_OS];		/* array of OS pictures*/
