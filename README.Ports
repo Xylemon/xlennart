@@ -7,6 +7,7 @@ Right now there's an unofficial OpenBSD port by Dmitrij D. Czarkoff <czarkoff@gm
 http://article.gmane.org/gmane.os.openbsd.ports/70338/match=xlennart (Outdated)
 http://article.gmane.org/gmane.os.openbsd.ports/70343/match=xlennart
 http://freshbsd.org/search?project=bitrig-ports&q=xlennart
+http://openports.se/games/xlennart
 
 I'm going to look into making this official and adapt any bug fixes from this port.
 Thanks for the work guys!

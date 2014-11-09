@@ -6,11 +6,11 @@ XLennart 1.0 - An XBill Modification
 
 XLennart is very simple to compile, as all you need to do is:
 
-./configure
+	./configure
 
-make
+	make
 
-sudo make install
+	sudo make install
 
 libXpm is required when using Motif or Athena widgets.
 
@@ -53,21 +53,25 @@ still some problems since xBill is so old.
 If you encounter a problem with Motif, V.R. from darknedgy.net did this to 
 compile XLennart:
 
-./configure --disable-motif
+	./configure --disable-motif
 
-Then I edited the Makefile and added -lXpm to LDFLAGS.
+	Then I edited the Makefile and added -lXpm to LDFLAGS.
 
-Then I had to edit UI.c and remove the #ifdef USE_MOTIF from the guis[] array, 
-otherwise I got a missing symbol error.
+	Then I had to edit UI.c and remove the #ifdef USE_MOTIF from the guis[] array, 
+	otherwise I got a missing symbol error.
 
-make 
+	make 
 
 ## OpenBSD Port
 
 Right now there's an unofficial OpenBSD port by Dmitrij D. Czarkoff <czarkoff@gmail.com>
 
 http://article.gmane.org/gmane.os.openbsd.ports/70338/match=xlennart (Outdated)
+
 http://article.gmane.org/gmane.os.openbsd.ports/70343/match=xlennart
+
+http://openports.se/games/xlennart
+
 http://freshbsd.org/search?project=bitrig-ports&q=xlennart
 
 I'm going to look into making this official and adapt any bug fixes from this port.
