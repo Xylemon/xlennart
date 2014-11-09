@@ -12,6 +12,8 @@ make
 
 sudo make install
 
+libXpm is required when using Motif or Athena widgets.
+
 ##About
 
 Welcome to XLennart...
@@ -59,6 +61,17 @@ Then I had to edit UI.c and remove the #ifdef USE_MOTIF from the guis[] array,
 otherwise I got a missing symbol error.
 
 make 
+
+## OpenBSD Port
+
+Right now there's an unofficial OpenBSD port by Dmitrij D. Czarkoff <czarkoff@gmail.com>
+
+http://article.gmane.org/gmane.os.openbsd.ports/70338/match=xlennart (Outdated)
+http://article.gmane.org/gmane.os.openbsd.ports/70343/match=xlennart
+http://freshbsd.org/search?project=bitrig-ports&q=xlennart
+
+I'm going to look into making this official and adapt any bug fixes from this port.
+Thanks for the work guys!
 
 ##Options
 
