@@ -62,20 +62,20 @@ compile XLennart:
 
 	make 
 
-## OpenBSD Port
+## Releases
 
-Right now there's an unofficial OpenBSD port by Dmitrij D. Czarkoff <czarkoff@gmail.com>
+Source Code (1.0):
 
-http://article.gmane.org/gmane.os.openbsd.ports/70338/match=xlennart (Outdated)
+https://github.com/Xylemon/xlennart/releases/download/1.0/xlennart-1.0.tar.gz
 
-http://article.gmane.org/gmane.os.openbsd.ports/70343/match=xlennart
+OpenBSD Modifications:
 
-http://openports.se/games/xlennart
+Can be found at http://openports.se/games/xlennart
 
-http://freshbsd.org/search?project=bitrig-ports&q=xlennart
+And in OpenBSD 5.7 (coming soon) you can install XLennart via
 
-I'm going to look into making this official and adapt any bug fixes from this port.
-Thanks for the work guys!
+pkg_add xlennart
+
 
 ##Options
 

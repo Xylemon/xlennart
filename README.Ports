@@ -2,12 +2,8 @@ Here's the status of the various ports:
 
 OpenBSD:
 
-Right now there's an unofficial OpenBSD port by Dmitrij D. Czarkoff <czarkoff@gmail.com>
+Modifications for OpenBSD by Dmitrij D. Czarkoff <czarkoff@gmail.com>
 
-http://article.gmane.org/gmane.os.openbsd.ports/70338/match=xlennart (Outdated)
-http://article.gmane.org/gmane.os.openbsd.ports/70343/match=xlennart
-http://freshbsd.org/search?project=bitrig-ports&q=xlennart
-http://openports.se/games/xlennart
+Apparently the package will included in OpenBSD 5.7, woo!
 
-I'm going to look into making this official and adapt any bug fixes from this port.
-Thanks for the work guys!
+Hopefully more to come!
