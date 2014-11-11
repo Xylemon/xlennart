@@ -79,8 +79,6 @@ fi
 if test "X$motif" = X"yes" -o "X$athena" = X"yes"; then
 	WIDGET_LIBS="$WIDGET_LIBS -lXt -lXpm -lX11"
 	WIDGET_OBJS="$WIDGET_OBJS x11.o"
-	AC_SUBST(WIDGET_LIBS)
-	AC_SUBST(WIDGET_OBJS)
 fi
 
 AC_ARG_ENABLE(gtk,
@@ -94,8 +92,11 @@ if test "$enable_gtk" != "no"; then
 		GTK_CFLAGS="`gtk-config --cflags`"
 		WIDGET_LIBS="$WIDGET_LIBS `gtk-config --libs`"
 		WIDGET_OBJS="$WIDGET_OBJS gtk.o"
+		AC_SUBST(GTK_CFLAGS)
 	fi
 fi
-AC_SUBST(GTK_CFLAGS)
+
+AC_SUBST(WIDGET_LIBS)
+AC_SUBST(WIDGET_OBJS)
 
 AC_OUTPUT(Makefile)
