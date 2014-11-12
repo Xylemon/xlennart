@@ -101,6 +101,12 @@ pkg_add xlennart
 
 ##Screenshots
 
+1.1:
+
+![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen3.png)
+
+1.0 (Outdated):
+
 ![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen1.png)
 ![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen2.png)
 
@@ -117,3 +123,5 @@ Programming & graphics:
 	Matias Duarte <matias@hyperimage.com> for XBill 2.0
 
 	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart
+
+See README.Credits for everyone involved.
