@@ -39,11 +39,12 @@ temporarily off, the os can be dragged back to the computer (or
 another computer compatible with that os).  To extinguish a spark drag
 the bucket of water from the upper left corner onto it.
 
-	The status bar at the bottom tells the following:
-		Number of Lenns on/off the screen
-		Number of Computers running their init/off/SystenD
-		Level
-		Score
+The status bar at the bottom tells the following:
+	
+	Number of Lenns on/off the screen
+	Number of Computers running their init/off/SystenD
+	Level
+	Score
 
 ## Known Issues
 
@@ -61,6 +62,8 @@ compile XLennart:
 	otherwise I got a missing symbol error.
 
 	make 
+
+This might not be an issue anymore with the improvements done to 1.1
 
 ## Releases
 
