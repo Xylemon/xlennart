@@ -69,13 +69,13 @@ This might not be an issue anymore with the improvements done to 1.1
 
 Source Code (1.1):
 
-https://github.com/Xylemon/xlennart/releases/download/1.1/xlennart-1.1.tar.gz
+https://github.com/Xylemon/xlennart/archive/1.1/xlennart-1.1.tar.gz
 
 http://www.bloodbathsoftworks.com/xylemon/uploads/xlennart/xlennart-1.1.tar.gz
 
 Source Code (1.0):
 
-https://github.com/Xylemon/xlennart/releases/download/1.0/xlennart-1.0.tar.gz
+https://github.com/Xylemon/xlennart/archive/1.0/xlennart-1.0.tar.gz
 
 http://www.bloodbathsoftworks.com/xylemon/uploads/xlennart/xlennart-1.0.tar.gz
 
