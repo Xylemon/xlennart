@@ -2,3 +2,11 @@ XLennart history:
 
 1.0 (02/11/2014):
 	- First release! A controversy is sure to broil!
+
+1.1 (05/12/2014)
+	- Clean up in makefile and configure scripts (Michael Shigorin and Dmitrij D. Czarkoff)
+	- Now uses GTK2 instead of GTK1 (Michael Shigorin)
+	- Improved Distro graphics and added a new one for a special occasion
+	- Some improvements to other images like the about page
+	- Removed unsed and outdated images
+	- Fixed some small copyright text
