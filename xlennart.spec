@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %changelog
 * Sun Nov 2 2014 Gethyn ThomasQuail <xylem2020@gmail.com>
 - First release!
-* Thu Dec 5 2014  Gethyn ThomasQuail <xylem2020@gmail.com>
+* Tue Dec 9 2014  Gethyn ThomasQuail <xylem2020@gmail.com>
 - Clean up in makefile and configure scripts (Michael Shigorin and Dmitrij D. Czarkoff)
 - Now uses GTK2 instead of GTK1 (Michael Shigorin)
 - Improved Distro graphics and added a new one for a special occasion
