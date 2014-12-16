@@ -1,0 +1,5 @@
+?package(xlennart):command="/usr/games/xlennart" \
+ icon="/usr/share/pixmaps/xlennart.xpm" \
+ needs="X11" \
+ section="Games/Action" \
+ title="xlennart"

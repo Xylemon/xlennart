@@ -1,0 +1,11 @@
+#!/bin/sh
+
+set -e
+
+if [ "$1" = "purge" ]; then
+  rm -f /var/games/xlennart.scores
+  rmdir /var/lib/games/xlennart /var/games/xlennart 2>/dev/null || true
+fi
+
+#DEBHELPER#
+

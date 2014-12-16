@@ -1,7 +1,7 @@
 Source: xlennart
 Maintainer: Daniel Reurich <daniel@centurion.net.nz>
-Section: misc
-Priority: optional
+Section: games
+Priority: extra
 Standards-Version: 3.9.2
 Build-Depends: debhelper (>= 9)
 

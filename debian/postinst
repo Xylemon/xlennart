@@ -1,0 +1,24 @@
+#!/bin/sh
+
+set -e
+
+OLD=/var/lib/games/xlennart/scores
+OLD2=/var/lib/games/xlennart.scores
+SCORES=/var/games/xlennart.scores
+
+if [ -e $OLD ]; then
+  mv $OLD $SCORES
+  rmdir /var/lib/games/xlennart
+elif  [ -e $OLD2 ]; then
+  mv $OLD2 $SCORES
+else
+  if [ ! -e $SCORES ]; then
+    cp $SCORES.default $SCORES
+  fi
+fi
+
+chown root:games $SCORES
+chmod 0664 $SCORES
+
+#DEBHELPER#
+

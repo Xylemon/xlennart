@@ -1,0 +1,57 @@
+This package was debianized by Daniel Reurich <daniel@centurion.net.nz>
+
+It was downloaded from:
+https://github.com/Xylemon/xlennart
+
+From the original README file:
+
+...
+COPYING
+       Copyright (c) 1994-6 Psychosoft
+
+       It's  FREE!  If you want to express your undying gratitude
+       to us for bringing a small bit of meaning into your other-
+       wise pointless existence, you could always send us e-mail.
+       XBill is distributed under the GNU Public License.
+
+       Go play the game now!
+...
+
+Authors:
+        Main Programmer:
+	                Brian Wellington <bwelling@xbill.org> for XBill 2.1
+			Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart			
+        Programming & graphics (v2.0 and earlier):
+                        Matias Duarte <matias@hyperimage.com> for XBill
+			Daniel Reurich <daniel@centurion.net.nz> for XLennart
+
+Additonal Credits - XLennart:
+
+	Michael Shigorin <shigorin@gmail.com> for configure and
+	makefile clean up. Along with the addition of the GTK2
+	patch (1.1)
+
+	Dmitrij D. Czarkoff <czarkoff@gmail.com> for small code
+	clean up (1.1) and OpenBSD modifications
+
+						
+License:
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software Foundation,
+    Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301, USA.
+
+  On Debian GNU/Linux systems, the complete text of the GNU General
+  Public License can be found in `/usr/share/common-licenses/GPL-2'.
+
+

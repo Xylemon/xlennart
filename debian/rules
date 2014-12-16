@@ -1,3 +1,17 @@
 #!/usr/bin/make -f
+
+DEB=debian/tmp
+SCORES=$(DEB)/var/games/xlennart.scores.default
+
 %:
-	dh $@
+	dh $@ --parallel
+
+override_dh_auto_configure:
+	dh_auto_configure -- --bindir=\$${prefix}/games --disable-gtk --disable-motif --enable-athena
+
+override_dh_fixperms:
+	dh_fixperms
+	chown root:games $(CURDIR)/debian/xlennart/usr/games/xlennart
+	chown root:games $(CURDIR)/debian/xlennart/var/games/xlennart.scores.default
+	chmod 2755 $(CURDIR)/debian/xlennart/usr/games/xlennart
+	chmod 0664 $(CURDIR)/debian/xlennart/var/games/xlennart.scores.default
