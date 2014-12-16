@@ -23,7 +23,7 @@ VPATH = @srcdir@
 ALL_CFLAGS =	$(CFLAGS) $(CPPFLAGS) -I$(srcdir)
 ALL_LDFLAGS =	$(CFLAGS) $(LDFLAGS)
 IMAGE_DEFINES=-DIMAGES=\"${datadir}/xlennart\"
-SCORE_DEFINES=-DSCOREFILE=\"${localstatedir}/games/xlennart.scores\"
+SCORE_DEFINES=-DSCOREFILE=\"${localstatedir}/xlennart.scores\"
 
 PROG =	xlennart
 
