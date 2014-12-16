@@ -1,5 +1,8 @@
-xlennart (1.1.1) UNRELEASED; urgency=low
+xlennart (1.1.1~1.gbp57f374) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @57f374d75afbf5b38f983e94b1fce2aa08cbd453 **
 
   * Initial release. (Closes: #XXXXXX)
+  * UNRELEASED
 
- -- Daniel Reurich <centurion@zephaniah.centurion.net.nz>  Tue, 16 Dec 2014 23:17:16 +1300
+ -- Daniel Reurich <centurion@zephaniah.centurion.net.nz>  Tue, 16 Dec 2014 23:42:02 +1300
