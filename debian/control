@@ -1,0 +1,13 @@
+Source: xlennart
+Maintainer: Daniel Reurich <daniel@centurion.net.nz>
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Build-Depends: debhelper (>= 9)
+
+Package: hithere
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Xlennart the sequel to Xbill
+ This is the sequel to the game XBill. A new nemesis has arisen...
+ 
