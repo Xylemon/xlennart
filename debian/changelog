@@ -1,0 +1,7 @@
+PACKAGE (1.1.1) UNRELEASED; urgency=low
+
+  * xlennart
+  * Add debian packaging
+  * Added debian/source/format > 3.0 (git)
+
+ -- Daniel Reurich <centurion@zephaniah.centurion.net.nz>  Tue, 16 Dec 2014 18:05:46 +1300
