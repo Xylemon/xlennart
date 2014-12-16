@@ -7,7 +7,7 @@ SCORES=$(DEB)/var/games/xlennart.scores.default
 	dh $@ --parallel
 
 override_dh_auto_configure:
-	dh_auto_configure -- --bindir=\$${prefix}/games --disable-gtk --disable-motif --enable-athena
+	dh_auto_configure -- --bindir=\$${prefix}/games --enable-gtk --enable-motif --enable-athena
 
 override_dh_fixperms:
 	dh_fixperms
