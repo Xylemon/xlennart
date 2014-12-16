@@ -1,7 +1,5 @@
-PACKAGE (1.1.1) UNRELEASED; urgency=low
+xlennart (1.1.1) UNRELEASED; urgency=low
 
-  * xlennart
-  * Add debian packaging
-  * Added debian/source/format > 3.0 (git)
+  * Initial release. (Closes: #XXXXXX)
 
- -- Daniel Reurich <centurion@zephaniah.centurion.net.nz>  Tue, 16 Dec 2014 18:05:46 +1300
+ -- Daniel Reurich <centurion@zephaniah.centurion.net.nz>  Tue, 16 Dec 2014 23:17:16 +1300
