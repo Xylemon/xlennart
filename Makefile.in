@@ -43,7 +43,7 @@ XPMS =	pixmaps/about.xpm pixmaps/billA_0.xpm \
 	pixmaps/icon.xpm pixmaps/centos.xpm pixmaps/logo.xpm \
 	pixmaps/maccpu.xpm pixmaps/debian.xpm pixmaps/nextcpu.xpm \
 	pixmaps/gentoo.xpm pixmaps/openbsd.xpm pixmaps/os2cpu.xpm \
-	pixmaps/palm.xpm pixmaps/palmcpu.xpm pixmaps/mandriva.xpm \
+	pixmaps/mandriva.xpm pixmaps/openbsd.xpm\
 	pixmaps/spark_0.xpm pixmaps/slackware.xpm pixmaps/suse.xpm \
 	pixmaps/spark_1.xpm pixmaps/ubuntu.xpm pixmaps/sgicpu.xpm \
 	pixmaps/suncpu.xpm pixmaps/toaster.xpm pixmaps/initfail.xpm
@@ -101,4 +101,4 @@ distclean::
 
 distclean clean::
 	rm -f ${PROG} *.o
-	rm -f *core core*
+rm -f *core core*:
