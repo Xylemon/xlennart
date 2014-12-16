@@ -86,8 +86,6 @@ install:
 	$(INSTALL) ${PROG} ${DESTDIR}${bindir}/${PROG}
 	$(MKINSTALLDIRS) ${DESTDIR}${mandir}/${MANDIR}
 	$(INSTALL_DATA) ${srcdir}/${MAN} ${DESTDIR}${mandir}/${MANDIR}
-	$(MKINSTALLDIRS) ${DESTDIR}${localstatedir}
-	$(INSTALL_DATA) ${srcdir}/scores ${DESTDIR}${localstatedir}/xbill.scores.default
 	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart
 	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart/pixmaps
 	$(MKINSTALLDIRS) ${DESTDIR}${datadir}/xlennart/bitmaps
