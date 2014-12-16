@@ -3,7 +3,7 @@ Maintainer: Daniel Reurich <daniel@centurion.net.nz>
 Section: games
 Priority: extra
 Standards-Version: 3.9.2
-Build-Depends: debhelper (>= 9), git
+Build-Depends: debhelper (>= 9)
 
 Package: xlennart
 Architecture: any
