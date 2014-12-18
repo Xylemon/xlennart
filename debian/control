@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 9), git, libgtk2.0-dev
 
 Package: xlennart
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}, libgtk2.0-0, libxpm4
+Depends: ${shlibs:Depends}, ${misc:Depends}, libxpm4
 Description: Xlennart the sequel to Xbill
  This is the sequel to the game XBill. A new nemesis has arisen....
  
