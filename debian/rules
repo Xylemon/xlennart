@@ -13,5 +13,5 @@ override_dh_fixperms:
 	dh_fixperms
 	chown root:games $(CURDIR)/debian/xlennart/usr/games/xlennart
 	chown root:games $(CURDIR)/debian/xlennart/var/games/xlennart.scores.default
-	chmod 2755 $(CURDIR)/debian/xlennart/usr/games/xlennart
+	chmod 0755 $(CURDIR)/debian/xlennart/usr/games/xlennart
 	chmod 0664 $(CURDIR)/debian/xlennart/var/games/xlennart.scores.default
