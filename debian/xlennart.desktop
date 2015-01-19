@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=XLennart
+Comment=Get rid of those SystemD viruses!
+Comment[it]=Fai piazza pulita dai virus SystemD!
+Icon=xlennart
+Exec=xlennart
+Terminal=false
+Categories=Game;ArcadeGame;
+
