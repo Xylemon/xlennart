@@ -98,6 +98,24 @@ install:
 		${INSTALL_DATA} ${srcdir}/$$i ${DESTDIR}${datadir}/xlennart/bitmaps ; \
 	done
 
+uninstall:
+	if [ -f ${DESTDIR}${bindir}/${PROG} ] ; \
+	then \
+		rm ${DESTDIR}${bindir}/${PROG} ; \
+	fi;
+	if [ -f ${DESTDIR}${mandir}/${MANDIR}/${MAN} ] ; \
+	then \
+		rm ${DESTDIR}${mandir}/${MANDIR}/${MAN} ; \
+	fi;
+	if [ -f ${DESTDIR}${localstatedir}/games/xlennart.scores.default ] ; \
+	then \
+		rm ${DESTDIR}${localstatedir}/games/xlennart.scores.default ; \
+	fi;
+	if [ -d ${DESTDIR}${datadir}/xlennart ] ; \
+	then \
+		rm -r ${DESTDIR}${datadir}/xlennart ; \
+	fi;
+
 distclean::
 	rm -f config.cache config.h config.log config.status Makefile
 
