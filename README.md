@@ -1,6 +1,6 @@
 ##XLennart
 
-XLennart 1.1 - An XBill Modification
+XLennart 1.1.1 - An XBill Modification
 
 ##Compiling
 
@@ -67,17 +67,27 @@ This might not be an issue anymore with the improvements done to 1.1
 
 ## Releases
 
+Source Code (1.1.1)
+
+https://github.com/Xylemon/xlennart/archive/1.1.1/xlennart-1.1.1.tar.gz
+
 Source Code (1.1):
 
 https://github.com/Xylemon/xlennart/archive/1.1/xlennart-1.1.tar.gz
-
-http://www.bloodbathsoftworks.com/xylemon/uploads/xlennart/xlennart-1.1.tar.gz
 
 Source Code (1.0):
 
 https://github.com/Xylemon/xlennart/archive/1.0/xlennart-1.0.tar.gz
 
-http://www.bloodbathsoftworks.com/xylemon/uploads/xlennart/xlennart-1.0.tar.gz
+Other Packages (Unofficial):
+
+ALT Linux: http://sisyphus.ru/en/srpm/Sisyphus/xlennart
+
+Arch: https://aur.archlinux.org/packages/xlennart-git/
+
+Chakra: http://chakraos.org/ccr/packages.php?ID=6940
+
+FreeBSD: https://bugs.freebsd.org/bugzilla/show_bug.cgi?id=195977
 
 OpenBSD Modifications:
 
@@ -112,7 +122,7 @@ pkg_add xlennart
 
 ##Screenshots
 
-1.1:
+1.1 (Outdated):
 
 ![alt tag](http://www.bloodbathsoftworks.com/xylemon/images/screenshots/xlennart/xlennartscreen3.png)
 
@@ -135,6 +145,9 @@ Programming & graphics:
 
 	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart
 
+	Daniel Reurich <daniel@reurich.kiwi.nz> for XLennart 
+ 	graphical character rework.
+
 See README.Credits for everyone involved.
 
 ##Disclaimer
@@ -146,5 +159,5 @@ this is just a game!
 
 Also note that this game is NOT affiliated with Bloodbath Softworks, any mentions of 
 the copyright going to Bloodbath Softworks in the previous releases were simply a 
-mistake. Only relation Bloodbath has to XLennart is the current hosting of the main 
-page and files. This will be moved to another domain soon enough. 
+mistake. Only relation Bloodbath had to XLennart was the hosting of the main 
+page and files. This will be reuploaded to another domain someday...

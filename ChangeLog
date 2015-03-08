@@ -10,3 +10,9 @@ XLennart history:
 	- Some improvements to other images like the about page
 	- Removed unsed and outdated images
 	- Fixed some small copyright text
+
+1.1.1 (08/03/2015)
+	- New Lennart sprites (Daniel Reurich)
+	- New Debian/Devuan packaging (Daniel Reurich)
+	- Some more makefile clean up (Vitalie Ciubotaru)
+	- Looking for a new maintainer, please contact me at <xylem2020@gmail.com>
