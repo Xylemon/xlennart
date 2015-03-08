@@ -142,15 +142,15 @@ pkg_add xlennart
 
 Main Programmer:
 
-	Brian Wellington <bwelling@xbill.org> for XBill 2.1
+	Brian Wellington <bwelling@xbill.org> for XBill 2.1.
 
-	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart
+	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart.
 
 Programming & graphics:
 
-	Matias Duarte <matias@hyperimage.com> for XBill 2.0
+	Matias Duarte <matias@hyperimage.com> for XBill 2.0.
 
-	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart
+	Gethyn ThomasQuail <xylem2020@gmail.com> for XLennart.
 
 	Daniel Reurich <daniel@reurich.kiwi.nz> for XLennart 
  	graphical character rework.
