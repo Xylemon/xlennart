@@ -2,6 +2,13 @@
 
 XLennart 1.1.1 - An XBill Modification
 
+##Maintainer Status
+
+(08/03/2015)
+
+I am no longer maintaining XLennart, if you would like to
+continue this project, contact me at xylem2020[at]gmail.com
+
 ##Compiling
 
 XLennart is very simple to compile, as all you need to do is:
